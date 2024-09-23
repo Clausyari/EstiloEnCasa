@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+.container {
+    text-align: center;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+table {
+    text-align: center;
+}
