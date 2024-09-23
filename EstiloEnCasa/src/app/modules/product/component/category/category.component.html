@@ -1,0 +1,27 @@
+<div class="container mt-5">
+    <div class="card border-primary mb-3">
+        <div class="card-header">
+            <h2 class="card-title">Categorías</h2>
+        </div>
+        <div class="card-body">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Category_ID</th>
+                        <th>Category</th>
+                        <th>Tag</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let category of categories">
+                        <td>{{ category.category_id }}</td>
+                        <td>{{ category.category }}</td>
+                        <td>{{ category.tag }}</td>
+                        <td>{{ category.status }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
