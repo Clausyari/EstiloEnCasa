@@ -1,9 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+/* Estilos globales */
 .container {
-    text-align: center;
-    max-width: 1280px;
-    margin: 0 auto;
+  text-align: center;
+  max-width: 1280px;
+  margin: 0 auto;
 }
+
 table {
-    text-align: center;
+  text-align: center;
+  width: 100%; /* Asegura que la tabla ocupe todo el ancho */
+  border-collapse: collapse; /* Para evitar espacios entre celdas */
+}
+
+/* Estilos para el modal */
+.modal-content {
+  border-radius: 0.5rem; /* Bordes redondeados */
+}
+
+.modal-header {
+  background-color: #f0ad4e; /* Color de fondo del header */
+  color: white; /* Color del texto */
+}
+
+.btn-primary {
+  background-color: #5bc0de; /* Color del botón */
+  border-color: #46b8da; /* Color del borde */
+}
+
+/* Cambios al pasar el mouse sobre el botón */
+.btn-primary:hover {
+  background-color: #31b0d5; /* Color al pasar el mouse */
+}
+
+/* Estilo para inputs inválidos */
+.is-invalid {
+  border-color: #dc3545; /* Color de borde rojo para inputs inválidos */
+}
+
+/* Estilos adicionales para la tabla */
+th, td {
+  padding: 1rem; /* Espaciado interno */
+  border: 1px solid #dee2e6; /* Borde de las celdas */
 }
